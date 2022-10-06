@@ -58,7 +58,6 @@ function restart(){
 
 function autoTurn(){
 let randbox;
-console.log('***')
 do {
      randbox= Math.floor(Math.random()  *  10);
     randbox == 0 ? randbox+=1 : randbox;
@@ -70,7 +69,6 @@ do {
         lastgame.push(randbox);
         console.log(lastgame.length);
     }else if(lastgame.length == 9){
-        console.log('turn X fin')
         turn = "x";
     }
 } while (turn=='o');
