@@ -67,7 +67,6 @@ do {
         turn = 'x';
         som+=Number(randbox); 
         lastgame.push(randbox);
-        console.log(lastgame.length);
     }else if(lastgame.length == 9){
         turn = "x";
     }
